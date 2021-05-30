@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.2",
+    "heartbeatAt": "2021-05-20T01:35:11.943257",
+    "startedAt": "2021-05-20T01:35:09.914057",
+    "docker": null,
+    "gpu": "GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\cv\\cv21b.programming02\\train.py",
+    "codePath": "train.py",
+    "host": "ShuoTu-Win-H",
+    "username": "ShuoTu",
+    "executable": "D:\\Python39\\python.exe"
+}

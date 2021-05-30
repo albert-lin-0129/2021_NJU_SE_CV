@@ -1,0 +1,713 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.30
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.2
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 5
+      4: 3.9.2
+      5: 0.10.30
+      8:
+      - 3
+      - 5
+adam:
+  desc: null
+  value: false
+artifact_alias:
+  desc: null
+  value: latest
+batch_size:
+  desc: null
+  value: 8
+bbox_interval:
+  desc: null
+  value: -1
+bucket:
+  desc: null
+  value: ''
+cache_images:
+  desc: null
+  value: false
+cfg:
+  desc: null
+  value: models/yolov5s.yaml
+data:
+  desc: null
+  value: data/dataset.yaml
+data_dict:
+  desc: null
+  value:
+    names:
+    - lid
+    - handle
+    - oven
+    - door
+    - faucet
+    - picture
+    - stove
+    - cabinet
+    - bowl
+    - sink
+    - counter
+    - kitchen
+    - cabinets
+    - wall
+    - handles
+    - rack
+    - shelf
+    - towel
+    - dish
+    - floor
+    - tiles
+    - cup
+    - bottle
+    - spoon
+    - knob
+    - pot
+    - doors
+    - light
+    - ceiling
+    - window
+    - drawer
+    - fruit
+    - chairs
+    - lights
+    - chair
+    - table
+    - microwave
+    - carpet
+    - wheel
+    - stripes
+    - basket
+    - bathroom
+    - container
+    - mirror
+    - toilet
+    - curtain
+    - seat
+    - flowers
+    - sauce
+    - pan
+    - flower
+    - leaves
+    - food
+    - computer
+    - desk
+    - monitor
+    - box
+    - leg
+    - keyboard
+    - wires
+    - phone
+    - frame
+    - mug
+    - television
+    - suitcase
+    - tv
+    - stand
+    - paper
+    - remote
+    - sign
+    - shirt
+    - bed
+    - blanket
+    - room
+    - outlet
+    - white
+    - side
+    - plate
+    - tire
+    - tile
+    - ground
+    - man
+    - lines
+    - sky
+    - tree
+    - roof
+    - building
+    - helmet
+    - pants
+    - foot
+    - concrete
+    - house
+    - street
+    - hair
+    - bike
+    - vehicle
+    - person
+    - motorcycle
+    - headlight
+    - dog
+    - pillows
+    - books
+    - couch
+    - corner
+    - sofa
+    - speaker
+    - legs
+    - head
+    - paw
+    - arm
+    - cushion
+    - jacket
+    - coat
+    - ski pole
+    - a
+    - ski
+    - bottom
+    - ring
+    - letter
+    - snow
+    - tag
+    - writing
+    - skis
+    - poles
+    - sticker
+    - pole
+    - tray
+    - bench
+    - book
+    - pillow
+    - refrigerator
+    - cheese
+    - bar
+    - duck
+    - water
+    - beak
+    - eyes
+    - rug
+    - plant
+    - bag
+    - cord
+    - cloth
+    - line
+    - this
+    - boat
+    - bicycle
+    - sand
+    - the
+    - red
+    - black
+    - beach
+    - rocks
+    - rock
+    - glasses
+    - finger
+    - woman
+    - shoe
+    - top
+    - sunglasses
+    - belt
+    - umbrella
+    - dress
+    - shoes
+    - skirt
+    - purse
+    - trim
+    - tip
+    - lady
+    - part
+    - shadow
+    - shade
+    - hand
+    - knife
+    - blinds
+    - board
+    - edge
+    - mountain
+    - snowboard
+    - stick
+    - weeds
+    - background
+    - hill
+    - bear
+    - crack
+    - hole
+    - teddy bear
+    - street light
+    - truck
+    - cloud
+    - plants
+    - plane
+    - air
+    - road
+    - branches
+    - fence
+    - distance
+    - clouds
+    - tail
+    - logo
+    - dirt
+    - buildings
+    - tower
+    - car
+    - wing
+    - statue
+    - grass
+    - path
+    - collar
+    - body
+    - reflection
+    - glass
+    - clock
+    - holder
+    - wood
+    - back
+    - jeans
+    - sweater
+    - strap
+    - buttons
+    - signs
+    - hood
+    - cover
+    - pipe
+    - windows
+    - branch
+    - area
+    - brick
+    - steps
+    - numbers
+    - post
+    - pocket
+    - backpack
+    - luggage
+    - metal
+    - bolt
+    - cellphone
+    - painting
+    - eye
+    - sock
+    - bat
+    - object
+    - lamp
+    - laptop
+    - button
+    - screen
+    - fur
+    - jar
+    - vase
+    - words
+    - trash can
+    - vegetables
+    - bridge
+    - candle
+    - wire
+    - rope
+    - cart
+    - train car
+    - train
+    - chain
+    - paint
+    - guy
+    - watch
+    - wrist
+    - men
+    - t-shirt
+    - boy
+    - shorts
+    - ear
+    - people
+    - knee
+    - bus
+    - blue
+    - stripe
+    - onion
+    - bucket
+    - hands
+    - curtains
+    - cap
+    - sidewalk
+    - flag
+    - pavement
+    - license plate
+    - ball
+    - racket
+    - rail
+    - stem
+    - leaf
+    - headlights
+    - photo
+    - number
+    - letters
+    - curb
+    - cake
+    - hat
+    - front
+    - patch
+    - elephant
+    - trunk
+    - feet
+    - cat
+    - whiskers
+    - face
+    - nose
+    - windshield
+    - wheels
+    - banner
+    - city
+    - neck
+    - tie
+    - clothes
+    - ripples
+    - bricks
+    - sun
+    - skier
+    - trees
+    - animal
+    - surface
+    - birds
+    - ocean
+    - mouth
+    - gate
+    - bracelet
+    - player
+    - court
+    - spectator
+    - tennis racket
+    - circle
+    - chimney
+    - structure
+    - shore
+    - river
+    - stone
+    - girl
+    - horse
+    - sneakers
+    - jet
+    - runway
+    - field
+    - airplane
+    - skateboard
+    - sneaker
+    - surfboard
+    - controller
+    - bird
+    - engine
+    - cone
+    - stairs
+    - ramp
+    - skateboarder
+    - zebra
+    - mane
+    - hoof
+    - poster
+    - sleeve
+    - bushes
+    - kite
+    - child
+    - park
+    - cow
+    - cows
+    - socks
+    - horn
+    - name
+    - wave
+    - waves
+    - van
+    - tablecloth
+    - giraffe
+    - design
+    - vest
+    - lettuce
+    - fork
+    - napkin
+    - meat
+    - sandwich
+    - bun
+    - wine
+    - cell phone
+    - banana
+    - tomato
+    - bananas
+    - pizza
+    - tent
+    - walkway
+    - word
+    - can
+    - carrot
+    - spots
+    - lettering
+    - orange
+    - slice
+    - bread
+    - baby
+    - suit
+    - broccoli
+    - kid
+    - beard
+    - pepper
+    - crust
+    - label
+    - net
+    - scarf
+    - pen
+    - shoulder
+    - pattern
+    - vegetable
+    - column
+    - base
+    - platform
+    - hot dog
+    - spot
+    - batter
+    - glove
+    - catcher
+    - umpire
+    - jersey
+    - baseball
+    - uniform
+    - gloves
+    - band
+    - camera
+    - tennis court
+    - boots
+    - string
+    - railing
+    - ears
+    - tennis ball
+    - log
+    - boot
+    - track
+    - shadows
+    - frisbee
+    - arms
+    - panel
+    - graffiti
+    - elephants
+    - tracks
+    - horses
+    - cars
+    - apple
+    - bush
+    - pillar
+    - mouse
+    - goggles
+    - key
+    - tree trunk
+    - doorway
+    - star
+    - street sign
+    - traffic light
+    - boats
+    - mountains
+    - stop sign
+    - balcony
+    - awning
+    - fire hydrant
+    - hydrant
+    - arrow
+    - train tracks
+    - surfer
+    - giraffes
+    - palm tree
+    - gravel
+    - wetsuit
+    - horns
+    - zebras
+    - sheep
+    - necklace
+    - tusk
+    - square
+    - donut
+    nc: 471
+    train: ./data/train/images/
+    val: ./data/val/images/
+device:
+  desc: null
+  value: '0'
+entity:
+  desc: null
+  value: null
+epochs:
+  desc: null
+  value: 50
+evolve:
+  desc: null
+  value: false
+exist_ok:
+  desc: null
+  value: false
+global_rank:
+  desc: null
+  value: -1
+hyp:
+  desc: null
+  value:
+    anchor_t: 4.0
+    box: 0.05
+    cls: 0.5
+    cls_pw: 1.0
+    degrees: 0.0
+    fl_gamma: 0.0
+    fliplr: 0.5
+    flipud: 0.0
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    iou_t: 0.2
+    lr0: 0.01
+    lrf: 0.2
+    mixup: 0.0
+    momentum: 0.937
+    mosaic: 1.0
+    obj: 1.0
+    obj_pw: 1.0
+    perspective: 0.0
+    scale: 0.5
+    shear: 0.0
+    translate: 0.1
+    warmup_bias_lr: 0.1
+    warmup_epochs: 3.0
+    warmup_momentum: 0.8
+    weight_decay: 0.0005
+image_weights:
+  desc: null
+  value: false
+img_size:
+  desc: null
+  value:
+  - 640
+  - 640
+label_smoothing:
+  desc: null
+  value: 0.0
+linear_lr:
+  desc: null
+  value: false
+local_rank:
+  desc: null
+  value: -1
+multi_scale:
+  desc: null
+  value: false
+name:
+  desc: null
+  value: exp
+noautoanchor:
+  desc: null
+  value: false
+nosave:
+  desc: null
+  value: false
+notest:
+  desc: null
+  value: false
+opt:
+  desc: null
+  value:
+    adam: false
+    artifact_alias: latest
+    batch_size: 8
+    bbox_interval: -1
+    bucket: ''
+    cache_images: false
+    cfg: models/yolov5s.yaml
+    data: data/dataset.yaml
+    device: '0'
+    entity: null
+    epochs: 50
+    evolve: false
+    exist_ok: false
+    global_rank: -1
+    hyp:
+      anchor_t: 4
+      box: 0.05
+      cls: 0.5
+      cls_pw: 1
+      degrees: 0
+      fl_gamma: 0
+      fliplr: 0.5
+      flipud: 0
+      hsv_h: 0.015
+      hsv_s: 0.7
+      hsv_v: 0.4
+      iou_t: 0.2
+      lr0: 0.01
+      lrf: 0.2
+      mixup: 0
+      momentum: 0.937
+      mosaic: 1
+      obj: 1
+      obj_pw: 1
+      perspective: 0
+      scale: 0.5
+      shear: 0
+      translate: 0.1
+      warmup_bias_lr: 0.1
+      warmup_epochs: 3
+      warmup_momentum: 0.8
+      weight_decay: 0.0005
+    image_weights: false
+    img_size:
+    - 640
+    - 640
+    label_smoothing: 0
+    linear_lr: false
+    local_rank: -1
+    multi_scale: false
+    name: exp
+    noautoanchor: false
+    nosave: false
+    notest: false
+    project: runs/train
+    quad: false
+    rect: false
+    resume: false
+    save_dir: runs\train\exp17
+    save_period: -1
+    single_cls: false
+    sync_bn: false
+    total_batch_size: 8
+    upload_dataset: false
+    weights: yolov5s.pt
+    workers: 2
+    world_size: 1
+project:
+  desc: null
+  value: runs/train
+quad:
+  desc: null
+  value: false
+rect:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: false
+save_dir:
+  desc: null
+  value: runs\train\exp18
+save_period:
+  desc: null
+  value: -1
+single_cls:
+  desc: null
+  value: false
+sync_bn:
+  desc: null
+  value: false
+total_batch_size:
+  desc: null
+  value: 8
+upload_dataset:
+  desc: null
+  value: false
+weights:
+  desc: null
+  value: runs/train/exp17/weights/last.pt
+workers:
+  desc: null
+  value: 2
+world_size:
+  desc: null
+  value: 1
